@@ -1,0 +1,35 @@
+# Node modules and build
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+
+# Python Virtual Environments
+**/venv/
+**/.venv/
+**/env/
+
+# Python Cache & Bytecode
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+**/wheels/
+**/*.egg-info
+
+# Databases and Runtime Data
+**/chroma_db/
+**/chromadb/
+**/processed/
+
+# Environment Variables
+.env
+.env.local
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.sqlite
+*.db
