@@ -87,7 +87,7 @@ Navigate to the backend directory and launch the FastAPI Uvicorn server:
 cd backend
 # With standard Python venv:
 source .venv/bin/activate
-pip install -r requirements.txt
+uv add -r requirements.txt
 python -m uvicorn app.main:app --reload
 
 # Or if you use uv:
